@@ -1,0 +1,21 @@
+
+h1 {
+  margin-bottom: 10px;  /* Reduz o espaçamento entre o título e a imagem */
+}
+  .maincontent #img {
+    width: 100%;  /* A div ocupará 100% da largura da tela */
+    height: 100vh; /* A altura da div será 95% da altura da viewport */
+    display: flex;
+    justify-content: center;  /* Centraliza a imagem horizontalmente */
+    align-items: start;      /* Centraliza a imagem verticalmente */
+}
+
+.maincontent img {
+  align-items: flex-start;      /* Centraliza a imagem verticalmente */
+    max-width: 80vw;  /* Limita a largura da imagem a 80% da largura da viewport */
+    max-height: 80vh; /* Limita a altura da imagem a 80% da altura da viewport */
+    width: auto;      /* Mantém a proporção horizontal da imagem */
+    height: 100vh;     /* Mantém a proporção vertical da imagem */
+    border-radius: 30px;  /* Adiciona bordas arredondadas à imagem */
+    object-fit: contain;  /* Garante que a imagem seja contida na div sem distorções */
+}
